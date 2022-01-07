@@ -17,14 +17,14 @@ BuildRequires : buildreq-distutils3
 Provides: persistent
 Provides: persistent-python
 Provides: persistent-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(cffi)
 BuildRequires : pypi(zope.interface)
 BuildRequires : pytest
 BuildRequires : python3-dev
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 ===========================================================
