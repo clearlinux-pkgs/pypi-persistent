@@ -1,5 +1,5 @@
 PKG_NAME := pypi-persistent
-URL = https://files.pythonhosted.org/packages/63/19/f95ae3d20840823754dacad879d0adf03bb290a2b763c6d9d85b020c0a2d/persistent-4.7.0.tar.gz
+URL = https://files.pythonhosted.org/packages/9c/cc/4d3da408fc1e37cb6481c9ea345159608fa4f0263efc6734c0314d571c0a/persistent-4.8.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
