@@ -4,7 +4,7 @@
 #
 Name     : pypi-persistent
 Version  : 4.9.0
-Release  : 66
+Release  : 67
 URL      : https://files.pythonhosted.org/packages/1c/cd/dadde2501f31b8e771e4dd44d5c630dd59ca311e293d8605a4a465316371/persistent-4.9.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1c/cd/dadde2501f31b8e771e4dd44d5c630dd59ca311e293d8605a4a465316371/persistent-4.9.0.tar.gz
 Summary  : Translucent persistent objects
