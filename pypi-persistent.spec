@@ -4,7 +4,7 @@
 #
 Name     : pypi-persistent
 Version  : 4.9.1
-Release  : 70
+Release  : 71
 URL      : https://files.pythonhosted.org/packages/ab/67/0ba2d556daf102658a9d990e677179a3389c82a06f288bc818205ba8f7e2/persistent-4.9.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ab/67/0ba2d556daf102658a9d990e677179a3389c82a06f288bc818205ba8f7e2/persistent-4.9.1.tar.gz
 Summary  : Translucent persistent objects
@@ -101,7 +101,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1663346295
+export SOURCE_DATE_EPOCH=1666707181
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -146,8 +146,8 @@ popd
 
 %files dev
 %defattr(-,root,root,-)
-/usr/include/python3.10/persistent/cPersistence.h
-/usr/include/python3.10/persistent/ring.h
+/usr/include/python3.11/persistent/cPersistence.h
+/usr/include/python3.11/persistent/ring.h
 
 %files filemap
 %defattr(-,root,root,-)
