@@ -5,7 +5,7 @@
 #
 Name     : pypi-persistent
 Version  : 5.0
-Release  : 76
+Release  : 77
 URL      : https://files.pythonhosted.org/packages/8f/24/a04530e61999442cecf4a6acb234db159915abaeb8081a28be821abf861a/persistent-5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8f/24/a04530e61999442cecf4a6acb234db159915abaeb8081a28be821abf861a/persistent-5.0.tar.gz
 Summary  : Translucent persistent objects
@@ -83,7 +83,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683042466
+export SOURCE_DATE_EPOCH=1685552417
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
