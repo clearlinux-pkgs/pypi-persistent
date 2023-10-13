@@ -5,7 +5,7 @@
 #
 Name     : pypi-persistent
 Version  : 5.1
-Release  : 78
+Release  : 79
 URL      : https://files.pythonhosted.org/packages/e7/bd/9efb67cf7704368663b7b07a99ad08e58fef69423fd90a35c7a75fa2b04c/persistent-5.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e7/bd/9efb67cf7704368663b7b07a99ad08e58fef69423fd90a35c7a75fa2b04c/persistent-5.1.tar.gz
 Summary  : Translucent persistent objects
@@ -17,6 +17,7 @@ Requires: pypi-persistent-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(cffi)
 BuildRequires : pypi(py)
+BuildRequires : pypi(pycparser)
 BuildRequires : pypi(zope.interface)
 BuildRequires : pypi-pluggy
 BuildRequires : pypi-pytest
@@ -83,7 +84,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1696519876
+export SOURCE_DATE_EPOCH=1697232547
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -148,8 +149,8 @@ popd
 
 %files dev
 %defattr(-,root,root,-)
-/usr/include/python3.11/persistent/cPersistence.h
-/usr/include/python3.11/persistent/ring.h
+/usr/include/python3.12/persistent/cPersistence.h
+/usr/include/python3.12/persistent/ring.h
 
 %files license
 %defattr(0644,root,root,0755)
