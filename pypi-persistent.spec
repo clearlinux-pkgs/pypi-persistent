@@ -5,7 +5,7 @@
 #
 Name     : pypi-persistent
 Version  : 5.1
-Release  : 79
+Release  : 80
 URL      : https://files.pythonhosted.org/packages/e7/bd/9efb67cf7704368663b7b07a99ad08e58fef69423fd90a35c7a75fa2b04c/persistent-5.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e7/bd/9efb67cf7704368663b7b07a99ad08e58fef69423fd90a35c7a75fa2b04c/persistent-5.1.tar.gz
 Summary  : Translucent persistent objects
