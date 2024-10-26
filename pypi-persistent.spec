@@ -7,7 +7,7 @@
 #
 Name     : pypi-persistent
 Version  : 6.1
-Release  : 84
+Release  : 85
 URL      : https://files.pythonhosted.org/packages/33/ff/6e576c834287031b2482d17ecdee7541bfc8e514c684c2e2b93599073708/persistent-6.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/33/ff/6e576c834287031b2482d17ecdee7541bfc8e514c684c2e2b93599073708/persistent-6.1.tar.gz
 Summary  : Translucent persistent objects
